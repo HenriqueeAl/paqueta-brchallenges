@@ -1,0 +1,31 @@
+.header_mid_options{
+    display: flex;
+    align-items: flex-end;
+    color: #383838;
+    cursor: pointer;
+    margin-right: 40px;
+    span{
+        margin-bottom: 5px;
+        margin-left: 12px;
+    }
+    .header_mid_options_image{
+        .header_mid_options_qtd{
+            width: 20px;
+            height: 20px;
+            position: relative;
+            top: 10px;
+            left: 20px;
+            font-size: 12px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+            background: linear-gradient(133.49deg, #F99500 21.3%, #FFCD29 133.37%);
+        }
+    }
+}
+
+.header_mid_options:hover{
+    opacity: 0.6;
+}
